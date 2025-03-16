@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clé Universelle</title>
+    <meta name="description" content="Un site sur l'intelligence artificielle et les technologies liées à la clé universelle">
+    <meta name="author" content="Benjamin Lenoir">
+    <meta name="keywords" content="IA, clé universelle, intelligence artificielle, technologies">
+    <link rel="stylesheet" href="style.css"> <!-- Ajoute ton fichier CSS ici si nécessaire -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#ia">Intelligence Artificielle</a></li>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section id="accueil">
+            <h1>Bienvenue sur le site Clé Universelle</h1>
+            <p>Explorez le monde de l'intelligence artificielle avec Clé Universelle.</p>
+        </section>
+
+        <section id="ia">
+            <h2>Intelligence Artificielle</h2>
+            <p>La clé universelle est un concept innovant qui explore la structure de l'IA et comment elle peut transformer différents secteurs.</p>
+        </section>
+
+        <section id="about">
+            <h2>À propos</h2>
+            <p>Clé Universelle est un projet créé par Benjamin Lenoir, dédié à l'exploration des technologies émergentes et de l'IA.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez nous contacter pour plus d'informations ou pour des collaborations.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Clé Universelle. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
