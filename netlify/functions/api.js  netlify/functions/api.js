@@ -1,6 +1,6 @@
-exports.handler = async (event, context) => {
+exports.handler = async () => {
     return {
         statusCode: 200,
-        body: JSON.stringify({ message: "L'API Clé Universelle fonctionne !" }),
+        body: JSON.stringify({ message: "Hello depuis Netlify Functions!" })
     };
 };
