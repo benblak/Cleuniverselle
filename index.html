@@ -54,3 +54,20 @@
 </body>
 </html>
 <!-- Mise à jour pour forcer un déploiement -->
+<section id="test-api">
+    <h2>Test de l'API</h2>
+    <button id="testApiButton">Tester l'API</button>
+    <p id="apiResponse"></p>
+</section>
+
+<script>
+    document.getElementById("testApiButton").addEventListener("click", async () => {
+        try {
+            const response = await fetch("/api/generateKey"); // Mets ici le bon endpoint de ton API
+            const data = await response.json();
+            document.getElementById("apiResponse").textContent = JSON.stringify(data);
+        } catch (error) {
+            document.getElementById("apiResponse").textContent = "Erreur : " + error;
+        }
+    });
+</script>
